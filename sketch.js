@@ -9,8 +9,8 @@ function setup() {
 function draw(){
 	background(51);
 	for (var i = 0; i<particleSystems.length;i++){
-	particleSystems.addParticle();
-	particleSystems.run();
+	particleSystems[i].addParticle();
+	particleSystems[i].run();
 	}
 }
 
